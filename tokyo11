@@ -1,2 +1,8 @@
-from ubuntu
-run echo masha
+kind: pod
+apiversion: v1
+metadata:
+   name:  testpod
+spec:
+    image: ubuntu
+    name: c00
+    command: ["/bin/bash", "-c", "while true; do echo masha ; sleep 5 "]
