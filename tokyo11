@@ -6,3 +6,5 @@ spec:
     image: ubuntu
     name: c00
     command: ["/bin/bash", "-c", "while true; do echo masha ; sleep 5 "]
+FROM ubuntu
+RUN echo " bear eating  jam & bessries "
